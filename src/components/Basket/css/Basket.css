@@ -1,0 +1,488 @@
+.basket {
+  width: 100%;
+}
+.basket .links {
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.basket .links .item-name {
+  opacity: 0.5;
+}
+.basket h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #111111;
+  margin: 50px 0;
+}
+.basket .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 50px 0;
+  border-top: 1px dashed #3f4e65;
+  border-bottom: 1px dashed #3f4e65;
+}
+.basket .item .item-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.basket .item .item-info .item-image {
+  height: 190px;
+  width: 280px;
+}
+.basket .item .item-info .item-desc {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 500px;
+}
+.basket .item .item-info .item-desc p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #3f4e65;
+}
+.basket .item .item-info .item-desc h2 {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #111111;
+}
+.basket .item .item-info .item-desc .lorem {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 150%;
+  color: #3f4e65;
+}
+.basket .item .price {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.basket .item .price .dotted {
+  height: 50px;
+}
+.basket .item .price .count {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.basket .item .price .count span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #3f4e65;
+}
+.basket .item .price .count button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 14px;
+  gap: 10px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #3f4e65;
+  width: 34px;
+  height: 23px;
+  background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+  border-radius: 1000px;
+  transition: all 0.2s linear;
+}
+.basket .item .price .count button:hover {
+  transform: scale(1.1);
+}
+.basket .item .price .count button:active {
+  transform: scale(1);
+}
+.basket .item .price span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #111111;
+}
+.basket .item .price button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 12px;
+  background: #ffc85e;
+  border-radius: 100%;
+  transition: all 0.2s linear;
+}
+.basket .item .price button:hover {
+  transform: scale(1.05);
+}
+.basket .item .price button:active {
+  transform: scale(1);
+}
+.basket .item .price button .icon {
+  background: url("../../../img/delete.svg") no-repeat center center;
+  width: 20px;
+  height: 20px;
+}
+.basket .total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0 100px 0;
+}
+.basket .total .order {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 38px;
+  gap: 12px;
+  background: #ffc85e;
+  border-radius: 79px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  transition: all 0.2s linear;
+}
+.basket .total .order:hover {
+  transform: scale(1.1);
+}
+.basket .total .order:active {
+  transform: scale(1);
+}
+.basket .total .total-price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #111111;
+}
+
+.empty {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 40px;
+}
+.empty .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #3f4e65;
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+}
+.empty .back:hover {
+  cursor: pointer;
+}
+.empty .cong {
+  padding: 30px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 735px;
+  height: 424px;
+  background: #ffffff;
+  border-radius: 8px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.empty .cong .close {
+  background: url("../../../img/close.svg") no-repeat center center;
+  width: 12px;
+  height: 12px;
+  align-self: flex-end;
+}
+.empty .cong .close:hover {
+  cursor: pointer;
+}
+.empty .cong .icon_container {
+  margin-top: 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 19px;
+  gap: 12px;
+  background: #ffc85e;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+}
+.empty .cong .icon_container .icon {
+  background: url("../../../img/cong.svg") no-repeat center center;
+  width: 20px;
+  height: 10px;
+}
+.empty .cong h1 {
+  margin-top: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #111111;
+}
+.empty .cong p {
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #3f4e65;
+}
+
+.mobile-links {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .basket {
+    padding: 20px 15px 50px 15px;
+  }
+  .basket .links {
+    margin-top: 150px;
+  }
+  .basket .links .left {
+    display: none;
+  }
+  .basket .links .mobile-links {
+    display: block;
+  }
+  .basket .links .mobile-links .mobile-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 120%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #3f4e65;
+  }
+  .basket .links .mobile-links .mobile-link .back {
+    background: url("../../../img/back.svg") no-repeat center center #ffc85e;
+    width: 32px;
+    height: 32px;
+    opacity: 0.6;
+    border-radius: 100%;
+  }
+  .basket h1 {
+    font-size: 20px;
+    margin: 25px 0 20px 0;
+  }
+  .basket .item {
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 15px;
+  }
+  .basket .item .item-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .basket .item .item-info .item-image {
+    height: 200px;
+    width: 100%;
+  }
+  .basket .item .item-info .item-desc {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .basket .item .item-info .item-desc p {
+    font-size: 10px;
+  }
+  .basket .item .item-info .item-desc h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .basket .item .item-info .item-desc .lorem {
+    font-size: 10px;
+  }
+  .basket .item .price {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  .basket .item .price .dotted {
+    height: 50px;
+  }
+  .basket .item .price .dotted:first-child {
+    display: none;
+  }
+  .basket .item .price .count {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .basket .item .price span {
+    font-size: 16px;
+  }
+  .basket .item .price button {
+    padding: 10px;
+  }
+  .basket .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin: 25px 0 0px 0;
+    gap: 25px;
+  }
+  .basket .total .order {
+    width: 100%;
+  }
+  .empty {
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .empty .back {
+    height: 360%;
+    z-index: 99999;
+  }
+  .empty .cong {
+    top: 60%;
+    left: 5%;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 999999;
+  }
+  .empty .cong .icon_container {
+    margin-top: 21px;
+  }
+  .empty .cong h1 {
+    font-size: 20px;
+  }
+  .empty .cong p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .basket {
+    padding: 0 15px;
+    overflow: hidden;
+  }
+  .basket .item {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .basket .item .price {
+    justify-self: flex-end;
+    gap: 25px;
+  }
+  .empty {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .empty .back {
+    height: 260%;
+    z-index: 99999;
+  }
+  .empty .cong {
+    top: 60%;
+    left: 15%;
+    width: 70%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 999999;
+  }
+  .empty .cong .icon_container {
+    margin-top: 21px;
+  }
+  .empty .cong h1 {
+    font-size: 20px;
+  }
+  .empty .cong p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1443px) {
+  .basket {
+    padding: 15px;
+  }
+  .basket .item .price {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .empty {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .empty .back {
+    height: 178%;
+    z-index: 99999;
+  }
+  .empty .cong {
+    top: 60%;
+    left: 15%;
+    width: 70%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 999999;
+  }
+  .empty .cong .icon_container {
+    margin-top: 21px;
+  }
+  .empty .cong h1 {
+    font-size: 20px;
+  }
+  .empty .cong p {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,29 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.pagination div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination div a {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination div a.active {
+  background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+}
+.pagination div a li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #3f4e65;
+}

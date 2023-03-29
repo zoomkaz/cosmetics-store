@@ -1,0 +1,356 @@
+[
+  {
+    "id": "1",
+    "url": "1.jpg",
+    "name": "Restoring daily defense moisturizer SPF 50 - Дневной крем МД",
+    "typeWeight": "г",
+    "weight": "57",
+    "code": "4604049095555",
+    "manufacturer": "MD",
+    "brand": "MD",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "8900.76",
+    "category": [
+      "Уход за лицом",
+      "Средства для загара",
+      "Все"
+    ]
+  },
+  {
+    "id": "2",
+    "url": "2.jpg",
+    "name": "Антибактериальный лосьон после бритья",
+    "typeWeight": "мл",
+    "weight": "100",
+    "code": "4604049097771",
+    "manufacturer": "Nivea",
+    "brand": "Nivea",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "8975.16",
+    "category": [
+      "Средства для бритья",
+      "Все"
+    ]
+  },
+  {
+    "id": "3",
+    "url": "3.webp",
+    "name": "Ручные бритвенные лезвия для мужчин ",
+    "typeWeight": "шт",
+    "weight": "5",
+    "code": "4604049097610",
+    "manufacturer": "Gillette",
+    "brand": "Gillette",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "70000.23",
+    "category": [
+      "Подарочные наборы",
+      "Средства для бритья",
+      "Все"
+    ]
+  },
+  {
+    "id": "4",
+    "url": "4.jpeg",
+    "name": "ополаскиватель для полости рта Взрывной ментол",
+    "typeWeight": "мл",
+    "weight": "150",
+    "code": "460404909894",
+    "manufacturer": "CloseUp",
+    "brand": "CloseUp",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "1294.41",
+    "category": [
+      "Гигиена полости рта",
+      "Все"
+    ]
+  },
+  {
+    "id": "5",
+    "url": "5.jpg",
+    "name": "Зубная нить ROCS Black Edition",
+    "typeWeight": "м",
+    "weight": "40",
+    "code": "4604049098975",
+    "manufacturer": "ROCS",
+    "brand": "ROCS",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "8477.21",
+    "category": [
+      "Гигиена полости рта",
+      "Все"
+    ]
+  },
+  {
+    "id": "6",
+    "url": "6.png",
+    "name": "Sacred Nature Body Butter",
+    "typeWeight": "мл",
+    "weight": "220",
+    "code": "4604049097312",
+    "manufacturer": "Beurre corp",
+    "brand": "Comfort Zone",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": " 534.55",
+    "category": [
+      "Уход за телом",
+      "Все"
+    ]
+  },
+  {
+    "id": "7",
+    "url": "7.jpeg",
+    "name": "Beauty Box Well Being Iles Pacifique",
+    "typeWeight": "г",
+    "weight": "50/30/30/2x25",
+    "code": "4604049053245",
+    "manufacturer": "Five oceans",
+    "brand": "Thalgo",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "824.21",
+    "category": [
+      "Подарочные наборы",
+      "Все"
+    ]
+  },
+  {
+    "id": "8",
+    "url": "8.jpg",
+    "name": "Foot Treatment Cream",
+    "typeWeight": "мл",
+    "weight": "100",
+    "code": "4604049426475",
+    "manufacturer": "Israil",
+    "brand": "Holy Land",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "44.41",
+    "category": [
+      "Уход за ногами",
+      "Все"
+    ]
+  },
+  {
+    "id": "9",
+    "url": "9.jpg",
+    "name": "Шампунь Речарж Lock Stock& Barrel",
+    "typeWeight": "мл",
+    "weight": "1000",
+    "code": "4604049657934",
+    "manufacturer": "LOCK STOCK & BARREL",
+    "brand": "Keen/Кин",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "765.97",
+    "category": [
+      "Уход за волосами",
+      "Все"
+    ]
+  },
+  {
+    "id": "10",
+    "url": "10.webp",
+    "name": "Средство для тела TrueBiotic Успокаивающий спрей-комфорт с пробиотиком",
+    "typeWeight": "мл",
+    "weight": "150",
+    "code": "4604049038853",
+    "manufacturer": "TRUEBIOTIC",
+    "brand": "Белита-М",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "1600.51",
+    "category": [
+      "Уход за телом",
+      "Все"
+    ]
+  },
+  {
+    "id": "11",
+    "url": "11.webp",
+    "name": "Лосьон для тела Прованс Лаванда Provence Lavender Body Lotion",
+    "typeWeight": "мл",
+    "weight": "300",
+    "code": "46040490110674",
+    "manufacturer": "BIOTHAL",
+    "brand": "BIOTHAL",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "2700.89",
+    "category": [
+      "Уход за телом",
+      "Все"
+    ]
+  },
+  {
+    "id": "12",
+    "url": "12.jpg",
+    "name": "кондиционер Oriental Premium для всех типов волос",
+    "typeWeight": "мл",
+    "weight": "500",
+    "code": "4604049023881",
+    "manufacturer": "KeraSys",
+    "brand": "KeraSys",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "3000.71",
+    "category": [
+      "Уход за волосами",
+      "Все"
+    ]
+  },
+  {
+    "id": "13",
+    "url": "13.jpg",
+    "name": "Sublimating Oil After Sun Ol After Sun",
+    "typeWeight": "мл",
+    "weight": "150",
+    "code": "4604049191516",
+    "manufacturer": "Tan Maximize",
+    "brand": "Lancaster",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "7432.88",
+    "category": [
+      "Средства для загара",
+      "Все"
+    ]
+  },
+  {
+    "id": "14",
+    "url": "14.jpg",
+    "name": "УВЛАЖНЯЮЩИЙ КРЕМ ДЛЯ РУК",
+    "typeWeight": "мл",
+    "weight": "475",
+    "code": "4604049045197",
+    "manufacturer": "ESTEL M'USE",
+    "brand": " M`use",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "44500.45",
+    "category": [
+      "Уход за руками",
+      "Все"
+    ]
+  },
+  {
+    "id": "15",
+    "url": "15.jpeg",
+    "name": "ПИТАТЕЛЬНАЯ МАСКА ДЛЯ РУК HANDMASKE",
+    "typeWeight": "мл",
+    "weight": "55",
+    "code": "4604049097222",
+    "manufacturer": "ESTEL M'USE",
+    "brand": "M`use",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "33673.12",
+    "category": [
+      "Уход за руками",
+      "Все"
+    ]
+  },
+  {
+    "id": "16",
+    "url": "16.jpg",
+    "name": "Отшелушивающая маска для ног с экстрактом лаванды",
+    "typeWeight": "шт",
+    "weight": "2",
+    "code": "4604049091264",
+    "manufacturer": "Mondsub",
+    "brand": "Mondsub",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "560.21",
+    "category": [
+      "Уход за ногами",
+      "Все"
+    ]
+  },
+  {
+    "id": "17",
+    "url": "17.jpg",
+    "name": "Крем-бальзам для ног для снятия усталости",
+    "typeWeight": "мл",
+    "weight": "75",
+    "code": "46040490911244",
+    "manufacturer": "Природная Аптека",
+    "brand": "Природная Аптека",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "432.85",
+    "category": [
+      "Уход за ногами",
+      "Все"
+    ]
+  },
+  {
+    "id": "18",
+    "url": "18.png",
+    "name": "Бумага туалетная 2-х слойная Lavender",
+    "typeWeight": "шт",
+    "weight": "4",
+    "code": "4604049096731",
+    "manufacturer": "Lavender",
+    "brand": "LuLo",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "1800.81",
+    "category": [
+      "Бумажная продукция",
+      "Все"
+    ]
+  },
+  {
+    "id": "19",
+    "url": "19.jpg",
+    "name": "Ватные палочки Silk Sense",
+    "typeWeight": "шт",
+    "weight": "100",
+    "code": "4604049099994",
+    "manufacturer": "Ola!",
+    "brand": "Ola!",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "9874.21",
+    "category": [
+      "Бумажная продукция",
+      "Все"
+    ]
+  },
+  {
+    "id": "20",
+    "url": "20.jpg",
+    "name": "Детские влажные салфетки гипоаллергенные",
+    "typeWeight": "шт",
+    "weight": "20",
+    "code": "46040490977754",
+    "manufacturer": "MEPSI",
+    "brand": "MEPSI",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "3330.21",
+    "category": [
+      "Гигиеническая продукция",
+      "Все"
+    ]
+  },
+  {
+    "id": "21",
+    "url": "21.jpeg",
+    "name": "САНИТЕЛЬ ГЕЛЬ Д/РУК АНТИСЕПТ. ВИТ. Е +СЕРЕБРО СИН",
+    "typeWeight": "мл",
+    "weight": "50",
+    "code": "4604049096511",
+    "manufacturer": "SANITELLE",
+    "brand": "SANITELLE",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "900.99",
+    "category": [
+      "Гигиеническая продукция",
+      "Все"
+    ]
+  },
+  {
+    "id": "22",
+    "url": "22.jpg",
+    "name": "Маска для лица Energising Mask",
+    "typeWeight": "мл",
+    "weight": "75",
+    "code": "4604049094444",
+    "manufacturer": " Ultraceuticals Ultra",
+    "brand": " Ultraceuticals Ultra",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum ut justo, vestibulum sagittis iaculis iaculis. Quis mattis vulputate feugiat massa vestibulum duis. Faucibus consectetur aliquet sed pellentesque consequat consectetur congue mauris venenatis. Nunc elit, dignissim sed nulla ullamcorper enim, malesuada.",
+    "price": "22000.99",
+    "category": [
+      "Уход за лицом",
+      "Все"
+    ]
+  }
+]

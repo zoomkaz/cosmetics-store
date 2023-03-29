@@ -1,0 +1,376 @@
+footer {
+  background: #3f4e65;
+  width: 100%;
+  height: 400px;
+  padding: 70px 0 115px 0;
+}
+
+.footer_container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer_container .about {
+  flex: 3;
+}
+.footer_container .about .footer-logo {
+  background: url("../../../img/footer-logo.svg") no-repeat center center;
+  width: 156px;
+  height: 66px;
+}
+.footer_container .about h3 {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.footer_container .about p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-top: 45px;
+}
+.footer_container .about .send-mail {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.footer_container .about .send-mail input {
+  width: 100%;
+  padding: 20px 10px 20px 20px;
+  gap: 10px;
+  background: #ededed;
+  border-radius: 36px;
+  transition: all 0.2s linear;
+}
+.footer_container .about .send-mail input:focus {
+  border: 1px solid #5c6370;
+}
+.footer_container .about .send-mail button {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffc85e;
+  border-radius: 100%;
+  margin-left: -50px;
+  transition: all 0.2s linear;
+}
+.footer_container .about .send-mail button:hover {
+  transform: scale(1.05);
+}
+.footer_container .about .send-mail button:active {
+  transform: scale(0.95);
+}
+.footer_container .about .send-mail button .icon {
+  background: url("../../../img/footer-send.svg") no-repeat center center;
+}
+.footer_container .nav {
+  flex: 2;
+}
+.footer_container .nav h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.footer_container .nav nav {
+  margin-top: 25px;
+}
+.footer_container .nav nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_container .nav nav ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  transition: all 0.2s linear;
+}
+.footer_container .nav nav ul li:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.footer_container .nav nav ul li:active {
+  transform: scale(1);
+}
+.footer_container .categ {
+  flex: 2;
+}
+.footer_container .categ h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.footer_container .categ ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 25px;
+}
+.footer_container .categ ul li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.footer_container .price-list {
+  flex: 2;
+}
+.footer_container .price-list h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.footer_container .price-list .price-btn {
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 20px 55px;
+  gap: 10px;
+  background: #ffc85e;
+  border-radius: 79px;
+  transition: all 0.2s linear;
+  margin-top: 25px;
+}
+.footer_container .price-list .price-btn:hover {
+  transform: scale(1.05);
+}
+.footer_container .price-list .price-btn:active {
+  transform: scale(0.95);
+}
+.footer_container .price-list .price-btn .icon {
+  background: url("../../../img/price-btn.svg") no-repeat center center;
+  width: 15px;
+  height: 15px;
+}
+.footer_container .price-list p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.footer_container .price-list .social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+.footer_container .price-list .social .whatsapp,
+.footer_container .price-list .social .telegram {
+  width: 40px;
+  height: 40px;
+  transition: all 0.2s linear;
+}
+.footer_container .price-list .social .whatsapp:hover,
+.footer_container .price-list .social .telegram:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.footer_container .price-list .social .whatsapp:active,
+.footer_container .price-list .social .telegram:active {
+  transform: scale(1);
+}
+.footer_container .price-list .social .whatsapp {
+  background: url("../../../img/whatsapp.svg") no-repeat center center;
+}
+.footer_container .price-list .social .telegram {
+  background: url("../../../img/telegram.svg") no-repeat center center;
+}
+.footer_container .contacts {
+  flex: 2;
+}
+.footer_container .contacts h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.footer_container .contacts .tel {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer_container .contacts .tel h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.footer_container .contacts .tel h3 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.footer_container .contacts .tel p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+.footer_container .contacts .tel p:hover {
+  cursor: pointer;
+}
+.footer_container .contacts .mail {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer_container .contacts .mail h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.footer_container .contacts .mail p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 130.02%;
+  color: #ffffff;
+}
+.footer_container .contacts .cards {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.footer_container .contacts .cards .visa,
+.footer_container .contacts .cards .mastercard {
+  width: 60px;
+  height: 40px;
+  transition: all 0.2s linear;
+}
+.footer_container .contacts .cards .visa:hover,
+.footer_container .contacts .cards .mastercard:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.footer_container .contacts .cards .visa:active,
+.footer_container .contacts .cards .mastercard:active {
+  transform: scale(1);
+}
+.footer_container .contacts .cards .visa {
+  background: url("../../../img/visa.svg");
+}
+.footer_container .contacts .cards .mastercard {
+  background: url("../../../img/mastercard.svg");
+}
+
+@media (max-width: 576px) {
+  footer {
+    overflow: hidden;
+    height: 100%;
+    padding: 15px;
+  }
+  footer .footer_container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  footer .footer_container .about .footer-logo {
+    width: 97px;
+    height: 41px;
+    background-size: contain;
+    background-position: center;
+  }
+  footer .footer_container .about h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+  }
+  footer .footer_container .about p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    margin-top: 15px;
+  }
+  footer .footer_container .nav,
+  footer .footer_container .categ {
+    flex: 1;
+  }
+  footer .footer_container .nav h2,
+  footer .footer_container .categ h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+  }
+  footer .footer_container .nav nav ul li,
+  footer .footer_container .categ nav ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  footer {
+    overflow: hidden;
+    height: 100%;
+    padding: 15px;
+    margin-top: 50px;
+  }
+  footer .footer_container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  footer .footer_container .nav,
+  footer .footer_container .categ {
+    width: 46.5%;
+    flex: none;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1443px) {
+  footer {
+    overflow: hidden;
+    height: 100%;
+    padding: 15px;
+    margin-top: 50px;
+  }
+  footer .footer_container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  footer .footer_container .nav,
+  footer .footer_container .categ {
+    width: 15%;
+    flex: none;
+  }
+}
