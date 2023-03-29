@@ -33,6 +33,9 @@
       .item-image {
         height: 190px;
         width: 280px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
       }
       .item-desc {
         display: flex;

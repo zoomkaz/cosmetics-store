@@ -135,7 +135,7 @@ const Basket = () => {
         if (code !== 'info') {
           return <div className='item' key={index.toString()} id={code}>
             <div className="item-info">
-              <img className="item-image" src={`img/${elem.item.url}`} alt={'item'} />
+              <div className="item-image" style={{ backgroundImage: `url(img/${elem.item.url})` }}></div>
               <div className="item-desc">
                 <p>{elem.item.weight} {elem.item.typeWeight}</p>
                 <h2>{elem.item.brand} <span>{elem.item.name}</span></h2>
