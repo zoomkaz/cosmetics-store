@@ -81,7 +81,7 @@ const Card = () => {
         </div>
       </div>
       <div className='item'>
-        <div className='item_image' style={{ backgroundImage: `url(../../img/${item.url})`, backgroundSize: `contain` }}></div>
+        <div className='item_image' style={{ backgroundImage: `url(img/${item.url})`, backgroundSize: `contain` }}></div>
         <div className="info">
           <p className='stoke'>В наличии</p>
           <div className="title"><span>{item.brand}</span>{item.name}</div>
