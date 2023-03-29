@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cosmetics-store/static/css/main.b0bea2f6.css",
-    "main.js": "/cosmetics-store/static/js/main.23c5b603.js",
+    "main.css": "/cosmetics-store/static/css/main.a0d43fbd.css",
+    "main.js": "/cosmetics-store/static/js/main.2e8c859f.js",
     "static/js/787.c1112931.chunk.js": "/cosmetics-store/static/js/787.c1112931.chunk.js",
     "static/media/info-right.svg": "/cosmetics-store/static/media/info-right.45d7d5bcece9b522c927.svg",
     "static/media/logo.svg": "/cosmetics-store/static/media/logo.7f338600576c2234a391.svg",
@@ -34,12 +34,12 @@
     "static/media/footer-send.svg": "/cosmetics-store/static/media/footer-send.35ab94e2f8817f324bd3.svg",
     "static/media/show-all.svg": "/cosmetics-store/static/media/show-all.260e242d67fc23d29ab0.svg",
     "static/media/back.svg": "/cosmetics-store/static/media/back.5a3ebbf524233ddda3e3.svg",
-    "main.b0bea2f6.css.map": "/cosmetics-store/static/css/main.b0bea2f6.css.map",
-    "main.23c5b603.js.map": "/cosmetics-store/static/js/main.23c5b603.js.map",
+    "main.a0d43fbd.css.map": "/cosmetics-store/static/css/main.a0d43fbd.css.map",
+    "main.2e8c859f.js.map": "/cosmetics-store/static/js/main.2e8c859f.js.map",
     "787.c1112931.chunk.js.map": "/cosmetics-store/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0bea2f6.css",
-    "static/js/main.23c5b603.js"
+    "static/css/main.a0d43fbd.css",
+    "static/js/main.2e8c859f.js"
   ]
 }
