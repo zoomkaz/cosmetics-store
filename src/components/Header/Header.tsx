@@ -64,7 +64,7 @@ export const Header = () => {
         </div>
         <div className="line"></div>
         <div className="bottom content">
-          <a href='/'><div className="logo"></div></a>
+          <Link to='/' onClick={() => localStorage.clear()}><div className="logo"></div></Link>
           <Link to='/'><button className='catalog-btn'>
             Каталог
             <div className="icon"></div>
