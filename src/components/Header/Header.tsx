@@ -100,7 +100,7 @@ export const Header = () => {
           <div className="burger" onClick={showHeaderMobile}>
             <div className="icon"></div>
           </div>
-          <a href='/'><div className="logo"></div></a>
+          <Link to='/' onClick={() => localStorage.clear()}><div className="logo"></div></Link>
           <div className="basket_container">
             <Link to='/basket'><div className="basket"><span>{orders}</span></div></Link>
           </div>

@@ -32,6 +32,7 @@ const Basket = () => {
 
   if (ordersHeaders[0]) {
     ordersHeaders[0].textContent = orders.toString()
+    ordersHeaders[1].textContent = orders.toString()
   }
   if (totalHeader) {
     totalHeader.textContent = total.toFixed(2).toString()

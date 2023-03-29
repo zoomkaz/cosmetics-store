@@ -258,7 +258,7 @@ header .bottom .basket_container .total_container .total {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+    padding: 0 15px;
   }
   .header-for-mobile .header-top .burger {
     width: 32px;
