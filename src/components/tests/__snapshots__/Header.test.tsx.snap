@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Header renders header elements 1`] = `
+<li>
+  О компании
+</li>
+`;

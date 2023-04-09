@@ -471,7 +471,7 @@ const Catalog: FC = () => {
 
 
   let adminDiv = showAdmin ?
-    <div className='admin-div'>
+    <div className='admin-div' data-testid='admin-div'>
       <div className="admin-top">
         <h2 className='admin-title'>Admin Panel</h2>
         <div className="admin-close" onClick={closeAdminPanel}></div>
@@ -540,18 +540,18 @@ const Catalog: FC = () => {
 
 
   return (
-    <div className='catalog content'>
+    <div className='catalog content' data-testid='catalog-page'>
       {adminDiv}
       <div className="links">
         <div className="left">
-          <Link to={'/'} className='main'>Главная</Link>
+          <Link to={'/'} className='main' data-testid='main-link'>Главная</Link>
           <div className="dotted"></div>
           <p className='cosmetic'>Косметика и гигиена</p>
         </div>
         <div className="mobile-links">
           <Link to={'/'} className='mobile-link'><div className='back'></div>Назад</Link>
         </div>
-        <div className="admin" onClick={showAdminPanel}>Admin Panel</div>
+        <div className="admin" onClick={showAdminPanel} data-testid='admin-panel-btn'>Admin Panel</div>
       </div>
       <div className="title">
         <h1>Косметика и гигиена</h1>
@@ -593,7 +593,7 @@ const Catalog: FC = () => {
                 <input type="text" placeholder='Поиск...' onClick={clearInputStyle} onChange={changeInputManufacturer} />
                 <button onClick={searchManufacturer}><div className="icon"></div></button>
               </div>
-              <p className='search-error'>Ничего не найдено. Измените запрос</p>
+              <p className='search-error' data-testid='error'>Ничего не найдено. Измените запрос</p>
             </div>
             <div className="manufacturer-list">
               {manufacturerItems.map((item) => {
@@ -605,7 +605,7 @@ const Catalog: FC = () => {
                 return null
               })}
               {Object.keys(res).map((key, index) => {
-                return <label className='manufacturer-item' key={index.toString()} htmlFor={index.toString()} onChange={checkCheck}>
+                return <label className='manufacturer-item' data-testid='manufacturer' key={index.toString()} htmlFor={index.toString()} onChange={checkCheck}>
                   <input type="checkbox" id={index.toString()} />{key} <span>({res[key]})</span>
                 </label>
               })}
@@ -618,7 +618,7 @@ const Catalog: FC = () => {
               </div>
               <div className="category_container-left">
                 {categoryList.map((item, index) => {
-                  return <div onClick={chooseManufacturer} className='category' key={index.toString()}>{item}</div>
+                  return <div onClick={chooseManufacturer} className='category' data-testid='category' key={index.toString()}>{item}</div>
                 })}
               </div>
             </div>

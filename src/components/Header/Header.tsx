@@ -64,7 +64,7 @@ export const Header = () => {
         </div>
         <div className="line"></div>
         <div className="bottom content">
-          <Link to='/' onClick={() => localStorage.clear()}><div className="logo"></div></Link>
+          <Link to='/' data-testid='logo' onClick={() => localStorage.clear()}><div className="logo"></div></Link>
           <Link to='/'><button className='catalog-btn'>
             Каталог
             <div className="icon"></div>
@@ -86,7 +86,7 @@ export const Header = () => {
             <div className="icon"></div>
           </button>
           <div className="basket_container">
-            <Link to='/basket'><div className="basket"><span>{orders}</span></div></Link>
+            <Link to='/basket' data-testid='basket-link'><div className="basket"><span>{orders}</span></div></Link>
             <div className="total_container">
               <h3>Корзина</h3>
               <h2 className='total'><span>{total}</span> ₸</h2>

@@ -14,7 +14,7 @@ const Items = ({ items, loading }: any) => {
     <div className="items_container">
       {items.map((item: any, index: any) => {
         return <div className='item' key={index.toString()}>
-          <NavLink to={`/card/${item.code}`} state={item}>
+          <NavLink to={`/card/${item.code}`} data-testid='card-link' state={item}>
             <div className='item_image' style={{ backgroundImage: `url(img/${item?.url})`, backgroundPosition: `center`, backgroundSize: `contain` }}></div>
             <div className="weight">{item?.weight} {item?.typeWeight}</div>
             <div className="title"><span>{item?.brand}</span>{item?.name}</div>

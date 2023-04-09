@@ -67,7 +67,7 @@ const Basket = () => {
     if (totalHeader) {
       totalHeader.textContent = '0'
     }
-    return <div className='empty content'>
+    return <div className='empty content' data-testid='basket-empty-page'>
       Корзина пуста
       {
         showOrder ?
@@ -119,7 +119,7 @@ const Basket = () => {
 
 
   return (
-    <div className='basket content'>
+    <div className='basket content' data-testid='basket-page'>
       <div className="links">
         <div className="left">
           <Link to={'/'} className='main'>Главная</Link>

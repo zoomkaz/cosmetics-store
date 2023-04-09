@@ -6,7 +6,7 @@ const Card = () => {
   const [count, setCount] = useState(1)
 
   let { state } = useLocation()
-  let item = state
+  let item = state || '';
 
   let currentPrice = (item.price * count).toFixed(2)
 
@@ -67,10 +67,10 @@ const Card = () => {
 
 
   return (
-    <div className="item_container content">
+    <div className="item_container content" data-testid='card-page'>
       <div className="links">
         <div className="left">
-          <Link to={'/'} className='main'>Главная</Link>
+          <Link to={'/'} className='main' data-testid='main-link'>Главная</Link>
           <div className="dotted"></div>
           <Link to={'/'} className='cosmetic'>Косметика и гигиена</Link>
           <div className="dotted"></div>
